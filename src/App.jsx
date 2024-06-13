@@ -1,12 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import Router from "./components/router/Router";
 
 const App = () => {
-	return <>
+	return <BrowserRouter >
+
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
+	<Router></Router>
 	
-	
-	</> 
+	</BrowserRouter> 
 	
 };
 
