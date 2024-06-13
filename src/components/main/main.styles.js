@@ -71,6 +71,6 @@ const Info = styled.div`
 const GeologyImg = styled.div`
 	position: absolute;
 	width: 70px;
-	top: 35%;
+	top: 40%;
 `;
 export { StyledImgContainer, Content, Source, Info, GeologyImg };

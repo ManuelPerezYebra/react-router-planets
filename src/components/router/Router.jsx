@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 
 import Main from "../main/Main"
 
-const Router =({planet, $color})=>{
+const Router =()=>{
     return(
         <Routes>
             <Route path="/" element={<Main planet='mercury' $color='#419EBB'/>}/>

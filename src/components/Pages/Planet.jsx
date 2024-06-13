@@ -5,7 +5,7 @@ const Planet =()=>{
   return(  
     <>
     
-    <Main></Main>
+    <Main/>
     </>
   
   

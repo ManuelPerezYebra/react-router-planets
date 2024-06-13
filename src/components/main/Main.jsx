@@ -18,9 +18,9 @@ const Main =({planet, $color})=>{
     } 
   
     return (
-    <div>
+    <div >
         <Header NavSwitch={NavSwitch}></Header>
-        <NavMenu $visibleNav={visibleNav}></NavMenu>
+        <NavMenu $visibleNav={visibleNav} NavSwitch={NavSwitch} ></NavMenu>
         <Tabs $color={$color} activeTab={activeTab} setActiveTab={setActiveTab}/>
         <StyledImgContainer>
             <img src={PLANETS[planet][Object.keys(PLANETS[planet])[activeTab]].img} alt="" />
