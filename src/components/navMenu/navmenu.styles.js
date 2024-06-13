@@ -47,8 +47,8 @@ const StyledLi = styled.li`
 		text-decoration: none;
 		color: inherit;
 		text-align: left;
-		margin-right: 130px;
-		width: 110px;
+		padding: 10px;
+		width: 300px;
 	}
 
 	img {
